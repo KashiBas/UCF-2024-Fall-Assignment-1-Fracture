@@ -1,6 +1,15 @@
+#include <math.h>
+#include <stdio.h>
+
 int main(void)
 {
-  calculateDistance()
+  int argc =
+  char** argv = 
+
+  // argc is
+  // argv is
+
+  calculateDistance(int argc, char** argv)
   calculatePerimeter()
   calculateArea()
   calculateWidth()
@@ -8,5 +17,5 @@ int main(void)
 
   return 0;
 }
-
+calculateDistance()
 
