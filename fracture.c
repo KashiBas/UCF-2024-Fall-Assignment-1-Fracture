@@ -90,7 +90,7 @@ double calculateWidth() {
 
   width = 0
   double width = abs(distx)
-  printf("The Width of the City is",%if,distx)
+  printf("The Width of the City is",%if,width)
   // This Function uses the values previously calculated, makes it positive,
   // and saves the value of the total x distance as the city's width
   
@@ -104,7 +104,7 @@ double calculateHeight() {
   
   height = 0
   double height = abs(disty)
-  printf("The Height of the City is",%if,disty)
+  printf("The Height of the City is",%if,height)
   // This Function uses the values previously calculated, makes it positive,
   // then saves the value of the total y distance as the city's height
   return(1.1)
