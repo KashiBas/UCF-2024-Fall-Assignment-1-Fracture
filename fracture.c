@@ -7,11 +7,11 @@ int main(void) {
   double AskForUserInput();
   // AskForUserInput() asks the user to input values of two arguments
 
-  double calculateDistance(int argc, int argv);
-  double calculatePerimeter(int argc, int argv);
-  double calculateArea(int argc, int argv);
-  double calculateWidth(int argc, int argv);
-  double calculateHeight(int argc, int argv);
+  double calculateDistance();
+  double calculatePerimeter();
+  double calculateArea();
+  double calculateWidth();
+  double calculateHeight();
 
   return 0;
 }
@@ -43,24 +43,65 @@ printf("Point #1 entered: x1=",var,argcx", y1=",var,argcy)
 printf("Point #2 entered: x2=",var,argvx", y2=",var,argvy)
 // printf statements recall the values input by the user for each point
 
-printf("Distance between points is ")
+dist=0
+distradx = 0
+distrady = 0
+double distradx = pow(argcx-argvx,2)
+double distrady = pow(argcy-argvy,2)
+double dist = sqrt(distradx+distrady)
+// Fracturing the distance formula into separate parts 
+
+printf("Distance between points is",%if,dist)
+
+return(double dist)
 
 }
 
 double calculatePerimeter() {
 
+  double calculateDistance();
+  // Recalling this function to print point values and previous calculations
 
+  perimeter = 2(abs(distradx)+abs(distrady))
+
+  return(1.3)
 }
 
 double calculateArea() {
 
+  double calculateDistance();
+  // Recalling this function to print point values and previous calculations
+  area = 0
+  double area = (distradx*distrady)
+  printf("The area of the City is",%if,area)
+  // Calculating the area of the city and saving it as a variable
 
+  return(1.1)
 }
 
 double calculateWidth() {
 
+  double calculateDistance();
+  // Recalling this function to print point values and previous calculations
+
+  width = 0
+  double width = abs(distradx)
+  printf("The Width of the City is",%if,distradx)
+  // This Function uses the values previously calculated, makes it positive,
+  // and saves the value of the total x distance as the city's width
+  
+  return(1.1)
 }
 
 double calculateHeight() {
 
+  double calculateDistance();
+  // Recalling this function to print point values and previous calculations
+  
+  height = 0
+  double height = abs(distrady)
+  printf("The Height of the City is",%if,distrady)
+  // This Function uses the values previously calculated, makes it positive,
+  // then saves the value of the total y distance as the city's height
+  return(1.1)
 }
